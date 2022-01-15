@@ -13,15 +13,18 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  // background: #444;
   color: white;
   line-height: 1.5;
   height: 100vh;
+  overflow: hidden;
 }
 
 .container {
   width: 100%;
   height: 100%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
 }
 
 section {
@@ -32,6 +35,11 @@ section {
   text-align: center;
   width: 100%;
   height: 100vh;
+  scroll-snap-align: center;
+
+  .container-bg{
+    background: rgba(darken($primary-color, 3), 0.5);
+  }
 }
 
 .text-secondary {
@@ -39,8 +47,8 @@ section {
 }
 
 #background {
-  height: 101%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   z-index: -1;
   position: fixed;
   background: linear-gradient($primary-color, lighten($primary-color, 10));
