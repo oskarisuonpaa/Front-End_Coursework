@@ -1,0 +1,93 @@
+@include mediaXl {
+}
+
+@include mediaLg {
+}
+
+@include mediaMd {
+  .container {
+    align-items: center;
+    text-align: center;
+  }
+
+  .navigation {
+    height: 40px;
+
+    .active {
+      font-size: xx-small;
+      font-weight: bold;
+    }
+
+    li {
+      margin: 0 0.4rem;
+      padding: 0.5rem;
+    }
+
+    a {
+      font-size: 0.5rem;
+      font-weight: bold;
+    }
+  }
+
+  section#home {
+    .lg-heading {
+      font-size: 3rem;
+    }
+
+    .sm-heading {
+      font-size: 1rem;
+    }
+
+    .icons {
+      padding-top: 0.5rem;
+      a {
+        font-size: 0.75rem;
+      }
+    }
+  }
+
+  section#about {
+    .lg-heading {
+      font-size: 2rem;
+    }
+
+    .sm-heading {
+      font-size: 1rem;
+    }
+
+    .about-info {
+      grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+      grid-template-columns: 1fr;
+    }
+  }
+
+  section#work {
+    .lg-heading {
+      font-size: 2rem;
+    }
+
+    .sm-heading {
+      font-size: 1rem;
+    }
+  }
+
+  section#contact {
+    .lg-heading {
+      font-size: 2rem;
+    }
+
+    .sm-heading {
+      font-size: 1rem;
+    }
+    .boxes {
+      div {
+        width: 100vw;
+        padding: auto;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+@include mediaSm {
+}

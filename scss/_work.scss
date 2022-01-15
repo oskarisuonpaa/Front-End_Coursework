@@ -12,6 +12,7 @@ section#work {
   .projects {
     display: grid;
     grid-gap: 0.7rem;
+    margin: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
     img {
@@ -35,6 +36,10 @@ section#work {
       background: $secondary-color;
       color: set-text-color($secondary-color);
     }
+  }
+
+  a{
+    text-decoration: none;
   }
 
   .btn-dark {

@@ -24,7 +24,7 @@ body {
   height: 100%;
   overflow-y: scroll;
   scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: y proximity;
 }
 
 section {
@@ -34,10 +34,13 @@ section {
   justify-content: center;
   text-align: center;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   scroll-snap-align: center;
+  margin: 10vh 0;
 
   .container-bg{
+    width: 100%;
+    height: auto;
     background: rgba(darken($primary-color, 3), 0.5);
   }
 }
@@ -61,3 +64,5 @@ section {
   color: set-text-color($primary-color);
   height: 60px;
 }
+
+@import "mobile";
