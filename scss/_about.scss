@@ -1,0 +1,70 @@
+// About view
+section#about {
+  .lg-heading {
+    font-weight: 400;
+    font-size: 4rem;
+  }
+
+  .sm-heading {
+    font-weight: 400;
+    font-size: 2rem;
+  }
+
+  .about-info {
+    display: grid;
+    grid-gap: 30px;
+    margin: 1rem;
+    grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+    grid-template-columns: repeat(3, 1fr);
+
+    .bio-image {
+      grid-area: bioimage;
+      width: 250px;
+      height: 250px;
+      margin: auto;
+      border-radius: 50%;
+      border: $secondary-color 3px solid;
+    }
+
+    .bio {
+      background: lighten($primary-color, 5);
+      border-bottom: $secondary-color 3px solid;
+      padding: 0.5rem;
+      grid-area: bio;
+      font-size: 1.5rem;
+      p {
+        text-align: left;
+      }
+    }
+
+    .job-1 {
+      grid-area: job1;
+    }
+
+    .job-2 {
+      grid-area: job2;
+    }
+
+    .job-3 {
+      grid-area: job3;
+    }
+
+    .job {
+      background: lighten($primary-color, 5);
+      padding: 0.5rem;
+      border-bottom: $secondary-color 3px solid;
+
+      h3 {
+        font-size: 2rem;
+      }
+
+      h6 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        text-align: left;
+      }
+    }
+  }
+}
