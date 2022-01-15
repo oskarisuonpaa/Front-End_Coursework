@@ -13,7 +13,7 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: #444;
+  // background: #444;
   color: white;
   line-height: 1.5;
   height: 100vh;
@@ -36,6 +36,14 @@ section {
 
 .text-secondary {
   color: $secondary-color;
+}
+
+#background {
+  height: 101%;
+  width: 100%;
+  z-index: -1;
+  position: fixed;
+  background: linear-gradient($primary-color, lighten($primary-color, 10));
 }
 
 #main-footer {

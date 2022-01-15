@@ -21,7 +21,8 @@
     text-transform: uppercase;
     color: #f4f4f4f4; }
     .menu-item a:hover {
-      color: #ff0800; }
+      color: #ff0800;
+      transition: all 0.5s ease-out; }
 
 section#home .lg-heading {
   font-weight: bold;
@@ -163,7 +164,6 @@ section#work .btn-light {
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: #444;
   color: white;
   line-height: 1.5;
   height: 100vh; }
@@ -183,6 +183,13 @@ section {
 
 .text-secondary {
   color: #ff0800; }
+
+#background {
+  height: 101%;
+  width: 100%;
+  z-index: -1;
+  position: fixed;
+  background: linear-gradient(#444, #5e5e5e); }
 
 #main-footer {
   text-align: center;
