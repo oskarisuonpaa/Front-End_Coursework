@@ -30,28 +30,28 @@ li {
       color: #ff0800;
       transition: all 0.5s ease-out; }
 
-section#home {
-  margin: 0; }
-  section#home .lg-heading {
-    font-weight: bold;
-    font-size: 6rem; }
-  section#home .sm-heading {
-    font-weight: 400;
-    font-size: 2rem;
-    background-color: #333;
-    padding: 0.25rem;
-    width: fit-content;
-    border-radius: 8px; }
-  section#home .icons {
-    padding-top: 1rem; }
-    section#home .icons a {
-      font-size: 1.5rem;
-      margin: 0.5rem;
-      color: white;
-      text-decoration: none; }
-      section#home .icons a:hover {
-        color: #ff0800;
-        transition: all 0.5s ease-out; }
+section#home .lg-heading {
+  font-weight: bold;
+  font-size: 6rem; }
+
+section#home .sm-heading {
+  font-weight: 400;
+  font-size: 2rem;
+  background-color: #333;
+  padding: 0.25rem;
+  width: fit-content;
+  border-radius: 8px; }
+
+section#home .icons {
+  padding-top: 1rem; }
+  section#home .icons a {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    color: white;
+    text-decoration: none; }
+    section#home .icons a:hover {
+      color: #ff0800;
+      transition: all 0.5s ease-out; }
 
 section#about .lg-heading {
   font-weight: 400;
@@ -195,7 +195,7 @@ section {
   width: 100%;
   min-height: 100vh;
   scroll-snap-align: center;
-  margin: 10vh 0; }
+  margin: 0 10vh 0 0; }
   section .container-bg {
     width: 100%;
     height: auto;

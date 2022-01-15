@@ -7,7 +7,7 @@ container.onscroll = () => {
     sections.forEach((section) => {
         const sectionTop = section.offsetTop;
         const sectionHeight = section.clientHeight;
-        if (container.scrollTop >= sectionTop - sectionHeight / 3) {
+        if (container.scrollTop >= sectionTop - sectionHeight / 4) {
             current = section.getAttribute("id");
         }
     });
