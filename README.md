@@ -14,5 +14,5 @@ Basic Parallax Website With HTML & CSS by Traversy Media on youtube.com
 These can be found in a file named "extra".
 
 ## How To Run:
-The project is already running and can be found here: [link](https://oskarisuonpaa.github.io/Front-End_Coursework/).  
+The project is already deployed and can be found here: [link](https://oskarisuonpaa.github.io/Front-End_Coursework/).  
 For running this on your own computer: Download the files and open the file 'index.html', found in dist folder, which will open the project in your browser.
