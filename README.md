@@ -10,5 +10,8 @@ Highlight navigation on scroll by Web Cifar on codepen.io
 Landing Page With Smooth Scroll - 3 Options by Traversy Media on youtube.com  
 Basic Parallax Website With HTML & CSS by Traversy Media on youtube.com  
 
-## Learning Diary & Demo Video 
+## Learning Diary & Demo Video:
 These can be found in a file named "extra".
+
+## How To Run:
+The project is already running and can be found here: [link](https://oskarisuonpaa.github.io/Front-End_Coursework/).
